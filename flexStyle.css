@@ -1,0 +1,122 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    color: #320f8b;
+    font-size: 30px;
+}
+
+h2 {
+    text-align:center;
+    color:#320f8b;
+    font-size: 30px;
+}
+
+.flex-container > div {
+display: flex;
+background-color: #320f8b;
+height: 300px;
+font-size: 25px;
+color: rgb(0, 0, 0);
+justify-content: center;
+align-items: center;
+}
+
+#div1 {
+    background-color: #FF0000;
+    width: 20%;
+}
+#div2 {
+    background-color: #FFFF00;
+    width: 20%;
+}
+#div3 {
+    background-color: #00FF00;
+    width: 20%;
+}
+#div4 {
+    background-color: #00FFFF;
+    width: 20%;
+}
+#div5 {
+    background-color: #0000FF;
+    width: 20%;
+}
+
+.flex-container2 > div {
+display: flex;
+height: 300px;
+width: 100%;
+font-size: 25px;
+justify-content: center;
+align-items: center;
+}
+
+.flex-container2{
+display: flex;
+flex-wrap: wrap;
+}
+
+#div6 {
+    background-color: rgb(255, 0, 0);
+    width:20%;
+}
+#div7 {
+    background-color: rgb(255, 255, 0);
+    width:20%;
+}
+#div8 {
+    background-color: rgb(0, 255, 0);
+    width:20%;
+}
+#div9 {
+    background-color: rgb(0, 255, 255);
+    width:20%;
+}
+#div10 {
+    background-color: rgb(0, 0, 255);
+    width:20%;
+}
+
+#upperdiv{
+    align-self: center;
+    background-color:rgb(255, 255, 255);
+}
+
+.paragraphs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    Border-style: dotted;
+}
+
+#leftdiv{
+    text-align: center;
+    width: 150px;
+    border-style: solid;
+    border-color: rgb(230, 230 ,230);
+    border-width: 50px;
+    color:#320f8b;
+    background-color: rgb(230, 230, 230);
+}
+
+#rightdiv{
+    text-align: left;
+    width: 150px;
+    border-style: solid;
+    border-color: rgb(230, 230 ,230);
+    border-width: 50px;
+    color:#320f8b;
+    background-color: rgb(230, 230, 230); 
+}
+
+.RGB{
+    height: 500px;
+    width: 614px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
